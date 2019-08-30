@@ -61,8 +61,6 @@ func getLinks(doc *goquery.Document) []data.LinkData {
 				URL:      linkHref,
 			}
 
-			//fmt.Println(linkvalue)
-			//println(index, linkTitle, "-", linkHref)
 			Fields = append(Fields, linkvalue)
 
 		}
